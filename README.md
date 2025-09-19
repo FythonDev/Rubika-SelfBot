@@ -20,9 +20,7 @@ All projects are powered by robust libraries like `pyrubi` or `rubpy`, enabling 
 
 ## 📦 Installation
 Each tool lives in its own folder with a README and clear structure.  
-Just enter the folder and run `main.py` :
-
-## ```bash
+Just enter the folder and run `main.py` :```bash
 pip install -r requirements.txt  
 python main.py```
 
