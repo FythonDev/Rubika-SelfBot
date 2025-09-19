@@ -36,10 +36,11 @@ bot.run()
 
 ## 📜 User and Admin Command List
 [`Source Commands
-`](.docs/help.md) 
+`](./docs/help.md) 
 
 
 ## 📄 License
 
 
 This project is released under the MIT License. See [`LICENSE`](./LICENSE) for details.
+
