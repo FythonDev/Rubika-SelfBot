@@ -1,33 +1,33 @@
-# جعبه‌ابزار ربات‌های روبیکا توسط PeTeR 🛡️
+# Rubika Bot Arsenal by PeTeR 🛡️
 
-![بنر PeTeRBot](./assets/banner.png)
+![PeTeRBot Banner](./assets/banner.png)
 
-مجموعه‌ای ماژولار از ربات‌های روبیکا، ساخته‌شده برای ادمین‌های فارسی‌زبان که به کنترل کامل، دقت بالا و تأثیر وایرال در گروه‌ها و کانال‌ها نیاز دارند.
+A modular collection of Rubika bots built for Persian-speaking admins who demand full control, high precision, and viral impact across groups and channels.
 
-تمام پروژه‌ها با استفاده از کتابخانه‌های قدرتمند مثل `pyrubi` یا `rubpy` توسعه داده شده‌اند تا ارتباط مستقیم با API روبیکا فراهم بشه—بدون واسطه، سریع، و قابل اعتماد.
+All projects are powered by robust libraries like `pyrubi` or `rubpy`, enabling direct communication with Rubika’s API—no middle layers, fast, and reliable.
 
-## 🔧 پروژه‌های موجود
-- [`rubika-group-manager`](./rubika-group-manager) — مدیریت کامل گروه با قابلیت بن، سکوت، خوش‌آمدگویی، فیلتر محتوا و آمارگیری  
-- *(پروژه‌های بعدی مثل خوش‌آمدگوی خودکار، ضد لینک، نمایش اطلاعات کاربر به‌زودی اضافه می‌شن)*
+## 🔧 Included Projects
+- [`rubika-group-manager`](./rubika-group-manager) — Full group management with ban, mute, welcome, content filtering, and user stats  
+- *(More tools coming soon: auto-welcome, anti-link, user-info, and more)*
 
-## 🚀 ویژگی‌ها
-- طراحی‌شده با معماری ماژولار و قابل توسعه  
-- ارتباط مستقیم با API روبیکا از طریق pyrubi یا rubpy  
-- ذخیره‌سازی دیتا در قالب JSON برای پردازش آسان  
-- قابل اتصال به داشبورد گرافیکی یا ابزارهای دیگر  
-- دارای مجوز MIT و آماده انتشار عمومی  
-- مناسب برای جامعه فارسی‌زبان و قابل استفاده جهانی
+## 🚀 Highlights
+- Built with modular and scalable architecture  
+- Direct API integration via pyrubi or rubpy  
+- JSON-based data storage for easy processing  
+- Ready to connect with dashboards or external tools  
+- MIT licensed and open for public use  
+- Designed for Persian communities and global deployment
 
-## 📦 نصب و اجرا
-هر ابزار در پوشه خودش قرار دارد و شامل README و ساختار مشخص است.  
-کافیه وارد پوشه موردنظر بشی و فایل `main.py` رو اجرا کنی:
+## 📦 Installation
+Each tool lives in its own folder with a README and clear structure.  
+Just enter the folder and run `main.py`:
 
 pip install -r requirements.txt  
 python main.py
 
-## 🧠 سازنده
-**PeTeR** — مهندس معکوس، معمار ربات، و سازنده ابزارهای وایرال  
-در حال ساخت ابزارهایی که تعریف کنترل، امنیت و تعامل در روبیکا رو تغییر می‌دن.
+## 🧠 Author
+**PeTeR** — Reverse engineer, bot architect, and viral toolmaker  
+Building tools that redefine control, security, and interaction in Rubika.
 
-## 📄 مجوز
-این مخزن تحت مجوز MIT منتشر شده. برای جزئیات بیشتر فایل [`LICENSE`](./LICENSE) رو ببین.
+## 📄 License
+This repository is licensed under the MIT License. See [`LICENSE`](./LICENSE) for details.
