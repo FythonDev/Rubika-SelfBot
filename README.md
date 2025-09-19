@@ -35,6 +35,7 @@ Simple bot examples using Rubika libraries, with messages sent by PeTeR:
 ```bash
 pip install pyrubi
 ```
+-Usage Example
 ```python
 from pyrubi import Client  
 from pyrubi.types import Message  
@@ -48,6 +49,11 @@ def send_hello(message: Message):
 client.run()
 ```
 ### rubpy
+-install 
+```bash
+pip install rubpy
+```
+-Usage Example
 ```python
 from rubpy import Client, filters  
 from rubpy.types import Update  
