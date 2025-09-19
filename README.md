@@ -8,7 +8,7 @@ All projects are powered by robust libraries like `pyrubi` or `rubpy`, enabling 
 
 ## 🔧 Included Projects
 - [`rubika-group-manager`](./rubika-group-manager) — Full group management with ban, mute, welcome, content filtering, and user stats  
-- *(More tools coming soon: auto-welcome, anti-link, user-info, and more)*
+
 
 ## 🚀 Highlights
 - Built with modular and scalable architecture  
