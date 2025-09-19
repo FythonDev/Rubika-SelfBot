@@ -1,6 +1,6 @@
 # Rubika Bot Arsenal by PeTeR 🛡️
 
-![PeTeRBot Banner](./assets/banner.png)
+![Banner](./banner.png)
 
 A modular collection of Rubika bots built for Persian-speaking admins who demand full control, high precision, and viral impact across groups and channels.
 
