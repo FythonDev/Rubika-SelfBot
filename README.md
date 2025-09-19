@@ -31,6 +31,10 @@ python main.py
 Simple bot examples using Rubika libraries, with messages sent by PeTeR:
 
 ### pyrubi
+-install 
+```bash
+pip install pyrubi
+```
 ```python
 from pyrubi import Client  
 from pyrubi.types import Message  
