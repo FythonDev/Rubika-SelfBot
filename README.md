@@ -26,6 +26,37 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## 🧪 Usage Examples
+
+Simple bot examples using Rubika libraries, with messages sent by PeTeR:
+
+### pyrubi
+```python
+from pyrubi import Client  
+from pyrubi.types import Message  
+
+client = Client("mySelf")  
+
+@client.on_message(regexp="hello")  
+def send_hello(message: Message):  
+  message.reply("Hello from PeTeR 👑")  
+
+client.run()
+```
+### rubpy
+```python
+from rubpy import Client, filters  
+from rubpy.types import Update  
+
+bot = Client(name='rubpy')  
+
+@bot.on_message_updates(filters.text)  
+async def updates(update: Update):  
+  await update.reply("Test message from PeTeR 😎")  
+
+bot.run()
+```
+
 ## 🧠 Author
 **PeTeR** — Reverse engineer, bot architect, and viral toolmaker  
 Building tools that redefine control, security, and interaction in Rubika.
