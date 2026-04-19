@@ -10,6 +10,7 @@ All projects are powered by robust libraries like `pyrubi` or `rubpy`, enabling 
 - [`group-manager`](./rubika-group-manager) — Full group management with ban, mute, welcome, content filtering, and user stats  
 - [`Custom`](./info) - Custom account and edit all sections
 - [`Report`](./Report-rubika) -  script; Account, channel, group violations report
+- [`auth`](./Auth) - Session creation and other related tasks
 
 
 ## 🚀 Highlights
