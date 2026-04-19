@@ -40,11 +40,11 @@ pip install pyrubi
 from pyrubi import Client  
 from pyrubi.types import Message  
 
-client = Client("mySelf")  
+client = Client("FythonDev")  
 
 @client.on_message(regexp="hello")  
 def send_hello(message: Message):  
-  message.reply("Hello from PeTeR 👑")  
+  message.reply("Hello from Fython")  
 
 client.run()
 ```
@@ -58,15 +58,29 @@ pip install rubpy
 from rubpy import Client, filters  
 from rubpy.types import Update  
 
-bot = Client(name='rubpy')  
+bot = Client(name='FythonDev')  
 
 @bot.on_message_updates(filters.text)  
 async def updates(update: Update):  
-  await update.reply("Test message from PeTeR 😎")  
+  await update.reply("Test message from Fython")  
 
 bot.run()
 ```
+## rubika
+```bash
+pip install rubika
+```
+```python
+from rubika import Bot, Socket
+from rubika.filters import filters
 
+bot = Bot("FythonDev")
+app = Socket(bot.auth)
+
+@app.handler(filters.PV)
+def hello(message):
+    message.reply("Hello from Fython")
+```
 ## 🧠 Author
 **PeTeR** — Reverse engineer, bot architect, and viral toolmaker  
 Building tools that redefine control, security, and interaction in Rubika.
