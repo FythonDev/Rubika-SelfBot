@@ -11,6 +11,7 @@ All projects are powered by robust libraries like `pyrubi` or `rubpy`, enabling 
 - [`Custom`](./info) - Custom account and edit all sections
 - [`Report`](./Report-rubika) -  script; Account, channel, group violations report
 - [`auth`](./Auth) - Session creation and other related tasks
+- [`Time name`](./Time-name) - Clock next to the name(group, channel, account)
 
 
 ## 🚀 Highlights
