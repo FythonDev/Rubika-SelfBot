@@ -7,8 +7,9 @@ A modular collection of Rubika bots built for Persian-speaking admins who demand
 All projects are powered by robust libraries like `pyrubi` or `rubpy`, enabling direct communication with Rubika’s API—no middle layers, fast, and reliable.
 
 ## 🔧 Included Projects
-- [`rubika-group-manager`](./rubika-group-manager) — Full group management with ban, mute, welcome, content filtering, and user stats  
-- [`Info`](./info) - Custom account and edit all sections
+- [`group-manager`](./rubika-group-manager) — Full group management with ban, mute, welcome, content filtering, and user stats  
+- [`Custom`](./info) - Custom account and edit all sections
+- [`Report`](./Report-rubika) -  script; Account, channel, group violations report
 
 
 ## 🚀 Highlights
